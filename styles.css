@@ -1,0 +1,27 @@
+/* general page styling with a fall vibe */
+body {
+    background: linear-gradient(135deg, #f7e2d1, #f4b183);
+    font-family: 'Georgia', serif;
+    color: #3e2723;
+}
+
+p {
+    font-size: 16px;
+    color: #5d4037;
+}
+
+.day {
+    font-weight: bold; /* bolded the names for better visbility */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.day:hover {
+    background-color: #f4dc8d; /* Light orange background on hover */
+    color: #ff6600;            /* changed color on hover for better visbility */
+}
+
+footer {
+    font-size: 14px;
+    padding: 10px;
+    color: #3e2723;
+}
